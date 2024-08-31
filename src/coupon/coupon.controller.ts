@@ -4,7 +4,7 @@ import { Coupon } from './coupon.entity';
 import { AuthGuard } from '@nestjs/passport';
 import { CreateCouponDto } from './dto/create-coupon.dto';
 
-@Controller('coupon')
+@Controller('api/coupon')
 export class CouponController {
     constructor(private couponService: CouponService){}
 

@@ -8,7 +8,7 @@ import { GetProductsFilterDto } from './dto/get-product.dto';
 import { AuthGuard } from '@nestjs/passport';
 import { UpdateProductStaffDto } from './dto/update-product-staff.dto';
 
-@Controller('product')
+@Controller('api/product')
 export class ProductController {
   constructor(private productService: ProductService) {}
 

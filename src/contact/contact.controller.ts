@@ -6,7 +6,7 @@ import { UpdateContactByStaffDto } from './dto/update-contact-by-staff.dto';
 import { UpdateContactByAdminDto } from './dto/update-contact-by-admin.dto';
 import { CreateContactDto } from './dto/create-contact.dto';
 
-@Controller('contact')
+@Controller('api/contact')
 export class ContactController {
     constructor(private contactService: ContactService) {}
 

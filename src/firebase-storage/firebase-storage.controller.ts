@@ -7,7 +7,7 @@ import { Product } from 'src/product/product.entity';
 import { Staff } from 'src/auth/staff/staff.entity';
 import { Admin } from 'src/auth/admin/admin.entity';
 
-@Controller('firebase-storage')
+@Controller('api/firebase-storage')
 export class FirebaseStorageController {
     constructor(private readonly firebaseStorageService: FirebaseStorageService) {}
 

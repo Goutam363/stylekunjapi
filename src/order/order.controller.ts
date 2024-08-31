@@ -11,7 +11,7 @@ import { OrderItem } from './order-item.entity';
 import { UpdateOrderAdminDto } from './dto/update-order-admin.dto';
 import { UpdateOrderStaffDto } from './dto/update-order-staff.dto';
 
-@Controller('order')
+@Controller('api/order')
 export class OrderController {
   constructor(private orderService: OrderService) {}
   @Get()

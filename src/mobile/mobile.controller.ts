@@ -1,7 +1,7 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { MobileService } from './mobile.service';
 
-@Controller('mobile')
+@Controller('api/mobile')
 export class MobileController {
     constructor(private readonly mobileService: MobileService) {}
 

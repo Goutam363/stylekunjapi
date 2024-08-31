@@ -11,7 +11,7 @@ import { MailService } from './mail.service';
 import { ContactUsDto } from './dto/contact-us.dto';
 import { AuthGuard } from '@nestjs/passport';
 
-@Controller('mail')
+@Controller('api/mail')
 export class MailController {
   constructor(private readonly mailService: MailService) {}
 
